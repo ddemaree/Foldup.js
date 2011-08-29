@@ -1,6 +1,12 @@
 body{
 	background-color: #ffa500;
-	font-family: brevia, helvetica, verdana, sans-serif;
+	font-family: helvetica, verdana, sans-serif;
+}
+
+/* To be used if Typekit is present, for web font awesomeness. 
+   Add Brevia at http://typekit.com/ */
+.wf-active body {
+  font-family: brevia, helvetica, verdana, sans-serif;
 }
 
 #page{
